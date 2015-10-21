@@ -14,4 +14,8 @@ Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. K
   <input type='email' name='email' placeholder='Your E-mail Address' />
   <textarea name='message' placeholder='Write your message ...'></textarea>
   <input type='submit' value='Send Message' />
+<<<<<<< HEAD
 </form>
+=======
+</form>
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95

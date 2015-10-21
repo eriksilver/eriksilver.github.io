@@ -5,14 +5,22 @@ url: "http://www.domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
+<<<<<<< HEAD
   title: Erik Silver # Your name will go here
+=======
+  title: Tyrion Lannister # Your name will go here
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
      <h1>Witty & Hilarious Rails Developer</h1>
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+<<<<<<< HEAD
   header_text_feature_image:
+=======
+  header_text_feature_image: 
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
@@ -21,12 +29,21 @@ theme:
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
+<<<<<<< HEAD
   dribbble:
   facebook:
   flickr:
   github: # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
+=======
+  dribbble: 
+  facebook: 
+  flickr:
+  github: # github profile name, e.g. "madebymunsters"
+  google_plus:
+  instagram: 
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -34,7 +51,11 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
+<<<<<<< HEAD
   twitter:
+=======
+  twitter: 
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95
   wordpress:
   youtube:
 
@@ -66,8 +87,11 @@ collections:
     permalink: /portfolio/:path/
 
 # BUILD SETTINGS
+<<<<<<< HEAD
 #exclude: [vendor] #fix for build error re scss
 
+=======
+>>>>>>> 78260d1d4cc91a35d8e81629597f860875e15d95
 markdown: kramdown
 
 highlighter: pygments

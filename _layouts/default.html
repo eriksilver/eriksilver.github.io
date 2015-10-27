@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js">
-  {% include head.html %}
-  <body>
+{% include head.html %}
+<body>
     {% include header.html %}
     <div class="content">
-      {{ content }}
+        {% if page.url contains 'blog' %} {% include blog.html %}
+        {% else %}
+
+        {{ content }}
+
+        {% endif %}
     </div>
     {% include footer.html %}
-  </body>
+</body>
 </html>

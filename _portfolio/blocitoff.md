@@ -1,13 +1,13 @@
 ---
 layout: post
 title: To Do App with self-destructing tasks
-thumbnail-path: "img/blocitoff.png"
+thumbnail-path: "img/blank_screen.png"
 short-description: Built a self-destructing to-do list application.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/blank_screen.png)
 
 ## Overview
 

@@ -8,12 +8,12 @@ theme:
 
   title: Erik Silver # Your name will go here
 
-  description: "A personal portfolio and blog website" # used by search engines
+  description: "A personal portfolio and blog website focusing on front end development and Shopify" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Front-End Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Front-End Developer</h1>
+     <p>Specializing in AngularJS, Javascript, and Shopify</p>
 
   header_text_feature_image:
 
@@ -21,7 +21,7 @@ theme:
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
-  rss: false
+  rss: true
   email_address: erik.w.silver@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -43,8 +43,8 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-69982829-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: erikportfolioblog #erikportfolioblog
   katex: true # Enable if using math markup
 
   # Localization strings

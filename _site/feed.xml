@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Silver</title>
-    <atom:link href="www.mydomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <link>www.mydomain.com/</link>
-    <description>A personal portfolio and blog website</description>
-    <pubDate>Wed, 11 Nov 2015 09:37:04 -0600</pubDate>
+    <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://eriksilver.github.io/</link>
+    <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
+    <pubDate>Wed, 11 Nov 2015 13:48:05 -0600</pubDate>
     
       <item>
         <title>Seven Ways to Serve Your App</title>
-        <link>www.mydomain.com/2015/06/14/Static-Server-Options.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2015/06/14/Static-Server-Options.html</guid>
+        <link>http://eriksilver.github.io/2015/06/14/Static-Server-Options.html</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/2015/06/14/Static-Server-Options.html</guid>
         <description>&lt;h2 id=&quot;seven-simple-ways-to-serve-your-new-app&quot;&gt;Seven Simple Ways to Serve Your New App&lt;/h2&gt;
 
 &lt;p&gt;For a project I was working on recently I needed a way to deploy my static files. I didn’t have a server built into my project (yet), but I needed to review my site locally and on the web.&lt;/p&gt;
@@ -65,8 +65,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>Front End Tutorials</title>
-        <link>www.mydomain.com/2015/06/01/Front-End-Tutorials.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2015/06/01/Front-End-Tutorials.html</guid>
+        <link>http://eriksilver.github.io/2015/06/01/Front-End-Tutorials.html</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/2015/06/01/Front-End-Tutorials.html</guid>
         <description>&lt;h3 id=&quot;front-end-free-tutorials&quot;&gt;Front End &lt;em&gt;Free&lt;/em&gt; Tutorials&lt;/h3&gt;
 
 &lt;p&gt;I come across many interesting tutorials on the interwebs and I thought it would be helpful to keep track of them somewhere, other than in bookmarks, to dos, and notes.&lt;/p&gt;
@@ -93,8 +93,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>How to Create a Jekyll Blog with Poole (or Type Theme)</title>
-        <link>www.mydomain.com/2015/05/21/How-to-Jekyll-blog.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2015/05/21/How-to-Jekyll-blog.html</guid>
+        <link>http://eriksilver.github.io/2015/05/21/How-to-Jekyll-blog.html</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/2015/05/21/How-to-Jekyll-blog.html</guid>
         <description>&lt;h3 id=&quot;update-october-2015&quot;&gt;Update October 2015&lt;/h3&gt;
 &lt;p&gt;I wanted a portfolio site in addition to a blog, so I found a new Jekyll theme to replace my original blog based on the &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; theme. Then I extended the Kami theme further and made my own customizations like the full blog page.&lt;/p&gt;
 
@@ -133,106 +133,6 @@ To do this, I created an ‘archive.md’ file and saved it in the blog director
 Also, I liked starting with theme that already incorporates some design, and the theme code and design is totally customizable.&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 May 2015 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>Sample post</title>
-        <link>www.mydomain.com/2010/01/01/EXAMPLE-sample-post.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-sample-post.html</guid>
-        <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
-  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
-
-&lt;p&gt;Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula &lt;em&gt;semper consectetur sagittis&lt;/em&gt;, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.&lt;/p&gt;
-
-&lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
-
-&lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2010 00:00:00 -0600</pubDate>
-      </item>
-    
-      <item>
-        <title>Feature images</title>
-        <link>www.mydomain.com/2010/01/01/EXAMPLE-post-feature-images.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-post-feature-images.html</guid>
-        <description>&lt;p&gt;jak;dsjfak;fj&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2010 00:00:00 -0600</pubDate>
-      </item>
-    
-      <item>
-        <title>Markdown and HTML</title>
-        <link>www.mydomain.com/2010/01/01/EXAMPLE-Markdown-and-html.html</link>
-        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-Markdown-and-html.html</guid>
-        <description>&lt;p&gt;Jeykll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A &lt;a href=&quot;http://www.google.com&quot;&gt;sample&lt;/a&gt; of the formatting follows.&lt;/p&gt;
-
-&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blocflix.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
-  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2010 00:00:00 -0600</pubDate>
       </item>
     
   </channel>

@@ -2,7 +2,7 @@
 layout: post
 title: Analytics Service for a song player app
 thumbnail-path: "img/blocipedia.png"
-short-description: Build an internal analytics service to track metrics within the Blocjams songplayer web app. 
+short-description: Build an internal analytics service to track metrics within the Blocjams songplayer web app.
 ---
 
 {:.center}

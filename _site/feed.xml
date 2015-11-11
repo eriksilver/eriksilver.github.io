@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Silver</title>
-    <atom:link href="http://www.domain.com/portfolio-kami//feed.xml" rel="self" type="application/rss+xml"/>
-    <link>http://www.domain.com/portfolio-kami//</link>
+    <atom:link href="www.mydomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>www.mydomain.com/</link>
     <description>A personal portfolio and blog website</description>
-    <pubDate>Sat, 31 Oct 2015 15:07:19 -0500</pubDate>
+    <pubDate>Wed, 11 Nov 2015 09:37:04 -0600</pubDate>
     
       <item>
         <title>Seven Ways to Serve Your App</title>
-        <link>http://www.domain.com/portfolio-kami//2015/06/14/Static-Server-Options.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2015/06/14/Static-Server-Options.html</guid>
+        <link>www.mydomain.com/2015/06/14/Static-Server-Options.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2015/06/14/Static-Server-Options.html</guid>
         <description>&lt;h2 id=&quot;seven-simple-ways-to-serve-your-new-app&quot;&gt;Seven Simple Ways to Serve Your New App&lt;/h2&gt;
 
 &lt;p&gt;For a project I was working on recently I needed a way to deploy my static files. I didn’t have a server built into my project (yet), but I needed to review my site locally and on the web.&lt;/p&gt;
@@ -65,8 +65,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>Front End Tutorials</title>
-        <link>http://www.domain.com/portfolio-kami//2015/06/01/Front-End-Tutorials.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2015/06/01/Front-End-Tutorials.html</guid>
+        <link>www.mydomain.com/2015/06/01/Front-End-Tutorials.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2015/06/01/Front-End-Tutorials.html</guid>
         <description>&lt;h3 id=&quot;front-end-free-tutorials&quot;&gt;Front End &lt;em&gt;Free&lt;/em&gt; Tutorials&lt;/h3&gt;
 
 &lt;p&gt;I come across many interesting tutorials on the interwebs and I thought it would be helpful to keep track of them somewhere, other than in bookmarks, to dos, and notes.&lt;/p&gt;
@@ -93,8 +93,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>How to Create a Jekyll Blog with Poole (or Type Theme)</title>
-        <link>http://www.domain.com/portfolio-kami//2015/05/21/How-to-Jekyll-blog.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2015/05/21/How-to-Jekyll-blog.html</guid>
+        <link>www.mydomain.com/2015/05/21/How-to-Jekyll-blog.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2015/05/21/How-to-Jekyll-blog.html</guid>
         <description>&lt;h3 id=&quot;update-october-2015&quot;&gt;Update October 2015&lt;/h3&gt;
 &lt;p&gt;I wanted a portfolio site in addition to a blog, so I found a new Jekyll theme to replace my original blog based on the &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; theme. Then I extended the Kami theme further and made my own customizations like the full blog page.&lt;/p&gt;
 
@@ -137,8 +137,8 @@ Also, I liked starting with theme that already incorporates some design, and the
     
       <item>
         <title>Sample post</title>
-        <link>http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-sample-post.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-sample-post.html</guid>
+        <link>www.mydomain.com/2010/01/01/EXAMPLE-sample-post.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-sample-post.html</guid>
         <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -166,8 +166,8 @@ Also, I liked starting with theme that already incorporates some design, and the
     
       <item>
         <title>Feature images</title>
-        <link>http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-post-feature-images.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-post-feature-images.html</guid>
+        <link>www.mydomain.com/2010/01/01/EXAMPLE-post-feature-images.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-post-feature-images.html</guid>
         <description>&lt;p&gt;jak;dsjfak;fj&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2010 00:00:00 -0600</pubDate>
@@ -175,8 +175,8 @@ Also, I liked starting with theme that already incorporates some design, and the
     
       <item>
         <title>Markdown and HTML</title>
-        <link>http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-Markdown-and-html.html</link>
-        <guid isPermaLink="true">http://www.domain.com/portfolio-kami//2010/01/01/EXAMPLE-Markdown-and-html.html</guid>
+        <link>www.mydomain.com/2010/01/01/EXAMPLE-Markdown-and-html.html</link>
+        <guid isPermaLink="true">www.mydomain.com/2010/01/01/EXAMPLE-Markdown-and-html.html</guid>
         <description>&lt;p&gt;Jeykll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A &lt;a href=&quot;http://www.google.com&quot;&gt;sample&lt;/a&gt; of the formatting follows.&lt;/p&gt;
 
 &lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
@@ -202,7 +202,7 @@ Also, I liked starting with theme that already incorporates some design, and the
 
 &lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio-kami//img/blocflix.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blocflix.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.&lt;/p&gt;
 

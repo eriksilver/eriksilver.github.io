@@ -21,7 +21,7 @@ theme:
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
-  rss: true
+  rss: false
   email_address: erik.w.silver@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:

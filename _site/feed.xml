@@ -5,12 +5,12 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Sun, 15 Nov 2015 21:44:49 -0600</pubDate>
+    <pubDate>Sun, 15 Nov 2015 21:59:28 -0600</pubDate>
     
       <item>
         <title>How to serve static files with Node and Express, without a templating engine</title>
-        <link>http://eriksilver.github.io/blog/Setting-up-Express-static-files</link>
-        <guid isPermaLink="true">http://eriksilver.github.io/blog/Setting-up-Express-static-files</guid>
+        <link>http://eriksilver.github.io/blog/How-to-serve-static-files-with-Node-and-Express-without-a-templating-engine</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/How-to-serve-static-files-with-Node-and-Express-without-a-templating-engine</guid>
         <description>&lt;p&gt;This example uses Node + Express to serve static files for an Angular app, without using
 an Express templating engine.&lt;/p&gt;
 

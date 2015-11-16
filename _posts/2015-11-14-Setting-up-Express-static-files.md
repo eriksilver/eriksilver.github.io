@@ -1,29 +1,29 @@
 ---
 layout: post
-title: How to serve static files with Express, without a templating engine
+title: How to serve static files with Node and Express, without a templating engine
 tags: Node, Express, MEAN Stack, How to
 published: true
 ---
-This example uses Express to serve static files for an Angular app, without using
+This example uses Node + Express to serve static files for an Angular app, without using
 an Express templating engine.
 
-Many examples for setting up an Express server with a Node app, include
-the use of Jade as a templating engine.
-Which looks something like this.
-INSERT
-The simple case of having a single page application, here, an Angular app, was hard to
-find a good example of setting up Express.
+Some examples for setting up an Express server with a Node app, include
+the use of Jade as a templating engine. This is app does not use a templating engine and I didn't want to add one. I had my views as plain html files.
+
+I found it hard to find an example of the simple case of a single page application, an Angular app, find a good example of setting up Express.
 
 So I pieced together clues from Stack Overflow and looked at the Express API directly to
-piece together a simple server setup.
+put together a simple server setup for this Angular app, a single page application.
 
-One tricky part was figuring out the res.sendFile and getting the file directly and entry point file properly identified.
-I had to restructure my files (i.e. get the right files in the public directory)
+One tricky part was figuring out the res.sendFile and getting the file directly and entry point file properly identified. The entry point for this app is the index.html; that is the only page the server points to and then Angular handles the routing.
+
+I had to restructure my files, that is, get the right files in the public directory.
 Here is what the files structure looks like:
+
 {:.center}
 ![Angular App file structure]({{ site.baseurl }}/img/gaApp-files.jpg)
 
-Heres what I found to use, stripped down as much as possible:
+Here is my final server.js file, with comments.
 
 {% highlight js %}
 //Use/'require' the Node module 'Express'
@@ -36,7 +36,9 @@ app.use(express.static('public'));
 //define a port
 var port = 8000;
 //the listen method binds and listens for connections on the specified host and port
-app.listen(port, function() {
+//using just "port" will work locally; but to deploy on Heroku, I had to use
+//"process.env.PORT || 8000" because Heroku will set the port randomly
+app.listen(process.env.PORT || 8000, function() {
     console.log('app listening on port ' + port);
 });
 //Routes HTTP GET requests to the specified path with the specified callback functions
@@ -52,3 +54,5 @@ app.get('*', function(req, res) {
     res.sendFile(__dirname + "/public/index.html");
 });
 {% endhighlight js %}
+
+How do you serve your apps with Node and Express?

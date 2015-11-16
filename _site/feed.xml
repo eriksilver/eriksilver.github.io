@@ -5,7 +5,64 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Sat, 14 Nov 2015 19:51:35 -0600</pubDate>
+    <pubDate>Sun, 15 Nov 2015 21:01:58 -0600</pubDate>
+    
+      <item>
+        <title>How to serve static files with Node and Express, without a templating engine</title>
+        <link>http://eriksilver.github.io/2015/11/14/Setting-up-Express-static-files.html</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/2015/11/14/Setting-up-Express-static-files.html</guid>
+        <description>&lt;p&gt;This example uses Node + Express to serve static files for an Angular app, without using
+an Express templating engine.&lt;/p&gt;
+
+&lt;p&gt;Some examples for setting up an Express server with a Node app, include
+the use of Jade as a templating engine. This is app does not use a templating engine and I didn’t want to add one. I had my views as plain html files.&lt;/p&gt;
+
+&lt;p&gt;I found it hard to find an example of the simple case of a single page application, an Angular app, find a good example of setting up Express.&lt;/p&gt;
+
+&lt;p&gt;So I pieced together clues from Stack Overflow and looked at the Express API directly to
+put together a simple server setup for this Angular app, a single page application.&lt;/p&gt;
+
+&lt;p&gt;One tricky part was figuring out the res.sendFile and getting the file directly and entry point file properly identified. The entry point for this app is the index.html; that is the only page the server points to and then Angular handles the routing.&lt;/p&gt;
+
+&lt;p&gt;I had to restructure my files, that is, get the right files in the public directory.
+Here is what the files structure looks like:&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/img/gaApp-files.jpg&quot; alt=&quot;Angular App file structure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is my final server.js file, with comments.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//Use/&amp;#39;require&amp;#39; the Node module &amp;#39;Express&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;express&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//Define variable app to use methods of the Express function&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//express.static is built-in middleware to server static files, &amp;#39;public&amp;#39; is the name of the directory&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//that holds the files to published&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;public&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//define a port&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//the listen method binds and listens for connections on the specified host and port&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//using just &amp;quot;port&amp;quot; will work locally; but to deploy on Heroku, I had to use&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&amp;quot;process.env.PORT || 8000&amp;quot; because Heroku will set the port randomly&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PORT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;app listening on port &amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//Routes HTTP GET requests to the specified path with the specified callback functions&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//here &amp;#39;*&amp;#39; is the path we want to get, which is a catch-all route&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//since we have a single page application (SPA) architecture, we are using Angular&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//to do the routing and we just need the Express server to have a single entry point into the&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//application, which is through the index.html file&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//__dirname is a special word to access the local file + public/index.html is the&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//directory for the published files&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//the sendFile method transfers the file that is the single point of entry&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//Transfers the file at the given path.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sendFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;__dirname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/public/index.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;How do you serve your apps with Node and Express?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Nov 2015 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>Seven Ways to Serve Your App</title>

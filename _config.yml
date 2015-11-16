@@ -13,7 +13,7 @@ theme:
   # Header and footer text
   header_text: >
      <h1>Front-End Developer</h1>
-     <p>Specializing in AngularJS, Javascript, and Shopify</p>
+     <p>Specializing in AngularJS and Javascript</p>
 
   header_text_feature_image:
 

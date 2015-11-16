@@ -3,7 +3,7 @@ layout: post
 title: How to serve static files with Node and Express, without a templating engine
 tags: Node, Express, MEAN Stack, How to
 published: true
-permalink: none
+permalink: /blog/:title
 ---
 This example uses Node + Express to serve static files for an Angular app, without using
 an Express templating engine.

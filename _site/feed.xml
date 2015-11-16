@@ -5,12 +5,12 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Sun, 15 Nov 2015 21:01:58 -0600</pubDate>
+    <pubDate>Sun, 15 Nov 2015 21:44:49 -0600</pubDate>
     
       <item>
         <title>How to serve static files with Node and Express, without a templating engine</title>
-        <link>http://eriksilver.github.io/2015/11/14/Setting-up-Express-static-files.html</link>
-        <guid isPermaLink="true">http://eriksilver.github.io/2015/11/14/Setting-up-Express-static-files.html</guid>
+        <link>http://eriksilver.github.io/blog/Setting-up-Express-static-files</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/Setting-up-Express-static-files</guid>
         <description>&lt;p&gt;This example uses Node + Express to serve static files for an Angular app, without using
 an Express templating engine.&lt;/p&gt;
 
@@ -66,8 +66,8 @@ Here is what the files structure looks like:&lt;/p&gt;
     
       <item>
         <title>Seven Ways to Serve Your App</title>
-        <link>http://eriksilver.github.io/2015/06/14/Static-Server-Options.html</link>
-        <guid isPermaLink="true">http://eriksilver.github.io/2015/06/14/Static-Server-Options.html</guid>
+        <link>http://eriksilver.github.io/blog/Static-Server-Options</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/Static-Server-Options</guid>
         <description>&lt;h2 id=&quot;seven-simple-ways-to-serve-your-new-app&quot;&gt;Seven Simple Ways to Serve Your New App&lt;/h2&gt;
 
 &lt;p&gt;For a project I was working on recently I needed a way to deploy my static files. I didn’t have a server built into my project (yet), but I needed to review my site locally and on the web.&lt;/p&gt;
@@ -122,8 +122,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>Front End Tutorials</title>
-        <link>http://eriksilver.github.io/2015/06/01/Front-End-Tutorials.html</link>
-        <guid isPermaLink="true">http://eriksilver.github.io/2015/06/01/Front-End-Tutorials.html</guid>
+        <link>http://eriksilver.github.io/blog/Front-End-Tutorials</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/Front-End-Tutorials</guid>
         <description>&lt;h3 id=&quot;front-end-free-tutorials&quot;&gt;Front End &lt;em&gt;Free&lt;/em&gt; Tutorials&lt;/h3&gt;
 
 &lt;p&gt;I come across many interesting tutorials on the interwebs and I thought it would be helpful to keep track of them somewhere, other than in bookmarks, to dos, and notes.&lt;/p&gt;
@@ -150,8 +150,8 @@ I haven’t tried them yet, but it looks fantastic.
     
       <item>
         <title>How to Create a Jekyll Blog with Poole (or Type Theme)</title>
-        <link>http://eriksilver.github.io/2015/05/21/How-to-Jekyll-blog.html</link>
-        <guid isPermaLink="true">http://eriksilver.github.io/2015/05/21/How-to-Jekyll-blog.html</guid>
+        <link>http://eriksilver.github.io/blog/How-to-Jekyll-blog</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/How-to-Jekyll-blog</guid>
         <description>&lt;h3 id=&quot;update-october-2015&quot;&gt;Update October 2015&lt;/h3&gt;
 &lt;p&gt;I wanted a portfolio site in addition to a blog, so I found a new Jekyll theme to replace my original blog based on the &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; theme. Then I extended the Kami theme further and made my own customizations like the full blog page.&lt;/p&gt;
 

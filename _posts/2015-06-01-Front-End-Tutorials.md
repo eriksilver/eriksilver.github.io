@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Front End Tutorials
+title: Front-End Tutorials
 tags: learncode
 ---
 
-###Front End *Free* Tutorials
+###Front-End *Free* Tutorials
 
 I come across many interesting tutorials on the interwebs and I thought it would be helpful to keep track of them somewhere, other than in bookmarks, to dos, and notes.
 

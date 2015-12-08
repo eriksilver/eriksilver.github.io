@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Analytics Service for a song player app
+title: Song Player Analytics
 thumbnail-path: "img/bloc-jams-analytics-MB.png"
-short-description: Build an internal analytics service to track metrics within the Blocjams songplayer web app.
+short-description: An internal analytics service to track metrics within the Bloc Jams song player app
 ---
 
 {:.center}
@@ -10,32 +10,29 @@ short-description: Build an internal analytics service to track metrics within t
 
 ## Overview
 
-This analytics service is built within a songplayer called Blocjams and tracks internal metrics of song play count, list of songs, and page visits and displays in a dashboard.
+This analytics service is built within a song player called Bloc Jams. It tracks the internal metrics of total song plays by song name, total song plays by day, and total song plays by month. The metrics are displayed as charts in a dashboard view.
 
 Components:
 <ol>
   <li>A client side event handler that executes a callback when a metric is recorded</li>
   <li>An Angular model to capture displayable events</li>
-  <li>A new state accessible in the navigation to view event results</li>
+  <li>A new state accessible in the navigation to view event results/charts</li>
 </ol>
 
 ## Stack
 
-<ol>
+<ul>
   <li>AngularJS</li>
-  <li>Firebase</li>
-  <li>KeenIO</li>
-  <li>Grunt</li>
-  <li>Heroku</li>
-</ol>
+  <li>Keen IO</li>
+</ul>
 
 ## User Stories
 
 <ol>
   <li>As an administrator, I want to capture events from any page in the song player app.</li>
-  <li>As an administrator, I want to view a dashboard of events capture from the app where I included the event handler</li>
+  <li>As an administrator, I want to view a dashboard of the captured events.</li>
 </ol>
 
 ## Results
 
-The analytics app was in interesting to further deepen my knowledge of Angular and learn about charting libraries (ChartJS, xxx) and ultimately settle on KeenIO for their superb analytics capability and built in charting.  
+The analytics app was interesting to further deepen my knowledge of Angular and learn about charting libraries and data services (ChartJS, NVD3) and ultimately settle on Keen IO for their superb analytics tools and built-in charting.  

@@ -13,12 +13,12 @@ theme:
   # Header and footer text
   header_text: >
      <h1>Front-End Developer</h1>
-     <p>Specializing in AngularJS and Javascript</p>
+     <p>Specializing in AngularJS and JavaScript</p>
 
   header_text_feature_image:
 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love. Austin, Texas.
 
   # Icons
   rss: false

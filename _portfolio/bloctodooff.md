@@ -1,8 +1,8 @@
 ---
 layout: post
-title: To Do App with self-destructing tasks
+title: To-Do App with a Twist
 thumbnail-path: "img/todo-app-MB.png"
-short-description: Built a self-destructing to-do list application.
+short-description: A to-do list application with "self-destructing" tasks
 
 ---
 
@@ -11,30 +11,29 @@ short-description: Built a self-destructing to-do list application.
 
 ## Overview
 
-This To Do App is unique in that the tasks will disappear if they are not completed within seven days.
+This To-Do app is unique in that tasks will disappear if they are not completed within seven days.
 
 Components:
 <ol>
-  <li>A client side event handler that executes a callback when a metric is recorded</li>
-  <li>An Angular model to capture displayable events</li>
-  <li>A new state accessible in the navigation to view event results</li>
+  <li>An Angular model to capture and list active tasks</li>
+  <li>A new state accessible in the navigation to view completed tasks</li>
 </ol>
 
 ## Stack
 
-<ol>
+<ul>
   <li>AngularJS</li>
   <li>Firebase</li>
-</ol>
+</ul>
 
 ## User Stories
 
 <ol>
-  <li>Enter tasks</li>
-  <li>View active and complete tasks</li>
-  <li>Delete incomplete tasks after seven days</li>
+  <li>As a user, I want to enter, archive, and delete tasks.</li>
+  <li>As a user, I want to view active and completed/archived tasks.</li>
+  <li>As a user, I want the app to archive active tasks after seven days.</li>
 </ol>
 
 ## Results
 
-The To Do App was my first the first app I built and a good place to start to learn the basics of Angular and integrating a database, Firebase, in this case.
+The To-Do App was the first app that I built and a good place to start to learn the basics of Angular and how to integrate a database, Firebase, in this case.

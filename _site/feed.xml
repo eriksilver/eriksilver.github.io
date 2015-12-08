@@ -5,7 +5,7 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Tue, 08 Dec 2015 10:51:57 -0600</pubDate>
+    <pubDate>Tue, 08 Dec 2015 11:09:15 -0600</pubDate>
     
       <item>
         <title>How to serve static files with Node and Express, without a templating engine</title>

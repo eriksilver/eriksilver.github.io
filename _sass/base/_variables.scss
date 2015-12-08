@@ -14,9 +14,10 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #4a4a4a;
-$link-color: #0070BB;
-$selection-color: #D4D4D4; // visible when highlighting text
+$text-color: #4a4a4a; //darker grey
+$link-color: #0070BB; //blueish
+$selection-color: #D4D4D4; //lighter grey - visible when highlighting text
+$hover-color: #005c99; //darker blue - text color on hover
 
 // Header colours
 $header-link-color: #383838;

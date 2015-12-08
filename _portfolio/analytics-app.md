@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Google Analytics App
-thumbnail-path: "img/blank_screen.png"
+thumbnail-path: "img/Analytics-MB-img.png"
 short-description: The Google Analytics app provides users easy access to their data in easy to understand charts.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blank_screen.png)
+![]({{ site.baseurl }}/img/Analytics-MB-img.png)
 
 ## Overview
 

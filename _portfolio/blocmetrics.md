@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Analytics Service for a song player app
-thumbnail-path: "img/blank_screen.png"
+thumbnail-path: "img/bloc-jams-analytics-MB.png"
 short-description: Build an internal analytics service to track metrics within the Blocjams songplayer web app.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blank_screen.png)
+![]({{ site.baseurl }}/img/bloc-jams-analytics-MB.png)
 
 ## Overview
 

@@ -1,15 +1,9 @@
-# Portfolio Kami Theme
-## Based on Type Theme
+##Personal Work Portfolio & Blog
 
-![Default Type Theme blog](https://bloc-global-assets.s3.amazonaws.com/portfolio/portfolio-kami.png)
+### Built with Jekyll
+Themed with: [Portfolio Kami Theme](https://github.com/Bloc/portfolio-kami), based on [Type](https://rohanchandra.github.io/project/type/)
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
+### To Run
+Local: ```jekyll serve --watch``` <br>
+Web: [http://eriksilver.github.io/](http://eriksilver.github.io/)
 
-## Get Started
-
-[Demo](http://madebymunsters.github.io/Lannister/)
-
-[Using Type](https://rohanchandra.github.io/project/type/)
-
-## License
-The MIT License (MIT)

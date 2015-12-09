@@ -8,6 +8,14 @@ short-description: An internal analytics service to track metrics within the Blo
 {:.center}
 ![]({{ site.baseurl }}/img/bloc-jams-analytics-MB.png)
 
+{:.center}
+<a href="https://bloc-jams-turnitup.herokuapp.com/" title="Bloc Jams Website">
+<i class="fa fa-laptop fa-3x icon-space"></i>
+</a>
+<a href="https://github.com/eriksilver/bloc-jams" title="Bloc Jams GitHub">
+<i class="fa fa-github-square fa-3x icon-space"></i>
+</a>
+
 ## Overview
 
 This analytics service is built within a song player called Bloc Jams. It tracks the internal metrics of total song plays by song name, total song plays by day, and total song plays by month. The metrics are displayed as charts in a dashboard view.

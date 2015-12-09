@@ -9,6 +9,14 @@ short-description: A to-do list application with "self-destructing" tasks
 {:.center}
 ![]({{ site.baseurl }}/img/todo-app-MB.png)
 
+{:.center}
+<a href="https://whattodonow.herokuapp.com/" title="To-do app Website">
+<i class="fa fa-laptop fa-3x icon-space"></i>
+</a>
+<a href="https://github.com/eriksilver/todo_app" title="To-do GitHub">
+<i class="fa fa-github-square fa-3x icon-space"></i>
+</a>
+
 ## Overview
 
 This To-Do app is unique in that tasks will disappear if they are not completed within seven days.

@@ -8,37 +8,48 @@ short-description: The app displays a user's Google Analytics data in easy to un
 {:.center}
 ![]({{ site.baseurl }}/img/Analytics-MB-img.png)
 
+{:.center}
+<a href="https://dashboard-analytics.herokuapp.com/" title="Analytics Dashboard Website">
+<i class="fa fa-laptop fa-3x icon-space"></i>
+</a>
+<a href="https://github.com/eriksilver/GA-app" title="Analytics Dashboard GitHub">
+<i class="fa fa-github-square fa-3x icon-space"></i>
+</a>
+
+
+
+
 ## Overview
 
 The Analytics Dashboard easily retrieves and displays a user's Google Analytics data in an easy-to-digest charts.
 
 Key Components:
 <ol>  
-  <li>Authenticate user and save profile data with Firebase</li>
-  <li>Consume Google Analytics API to access user's data</li>
-  <li>Manage states/views with Angular UI Router</li>
-  <li>Utilize a custom alert service for form notifications</li>
-  <li>Serve app with Node.js and Heroku</li>
+<li>Authenticate user and save profile data with Firebase</li>
+<li>Consume Google Analytics API to access user's data</li>
+<li>Manage states/views with Angular UI Router</li>
+<li>Utilize a custom alert service for form notifications</li>
+<li>Serve app with Node.js and Heroku</li>
 </ol>
 
 ## Stack
 
 <ul>
-  <li>AngularJS</li>
-  <li>Firebase</li>
-  <li>Node.js</li>
-  <li>Express</li>
-  <li>Bootstrap</li>
+<li>AngularJS</li>
+<li>Firebase</li>
+<li>Node.js</li>
+<li>Express</li>
+<li>Bootstrap</li>
 </ul>
 
 ## User Stories
 
 <ol>
-  <li>As a user, I want to register and log in to an account.</li>
-  <li>As a user, I want to view and edit my profile.</li>
-  <li>As a user, I want a preset analytics dashboard with data in chart format.</li>
-  <li>As a user, I want to select multiple views and timeframes to analyze my data.</li>
-  <li>As an administrator, I want an attractive landing page with a call-to-action.</li>
+<li>As a user, I want to register and log in to an account.</li>
+<li>As a user, I want to view and edit my profile.</li>
+<li>As a user, I want a preset analytics dashboard with data in chart format.</li>
+<li>As a user, I want to select multiple views and timeframes to analyze my data.</li>
+<li>As an administrator, I want an attractive landing page with a call-to-action.</li>
 </ol>
 
 ## Results

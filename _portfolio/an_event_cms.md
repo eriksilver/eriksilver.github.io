@@ -2,7 +2,7 @@
 layout: post
 title: Event Management System
 thumbnail-path: "img/events-screen.png"
-short-description: An event management app to display, add, and edit event information. 
+short-description: An event management app to display, add, and edit event information
 ---
 
 {:.center}

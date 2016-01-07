@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to work with Shopify Collection Filters' and their limitations
+title: How to work with Shopify Collection Filters and their limitations
 tags: Shopify, filters, How to
 published: true
 permalink: /blog/

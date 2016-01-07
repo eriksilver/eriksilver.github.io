@@ -5,7 +5,7 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Thu, 07 Jan 2016 10:26:30 -0600</pubDate>
+    <pubDate>Thu, 07 Jan 2016 15:07:31 -0600</pubDate>
     
       <item>
         <title>How to deploy an app from scratch with Heroku, using Node and Express</title>
@@ -74,12 +74,16 @@ or depending on how your remotes are setup:&lt;br /&gt;
 &lt;p&gt;Check out the repo &lt;a href=&quot;https://github.com/eriksilver/Events-CMS&quot;&gt;here&lt;/a&gt; if you want to reference the files.&lt;/p&gt;
 
 &lt;p&gt;How do you spin up a Node + Express server?&lt;/p&gt;
+
+&lt;p class=&quot;meta&quot;&gt;
+    
+&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 00:00:00 -0600</pubDate>
       </item>
     
       <item>
-        <title>How to work with Shopify Collection Filters&#39; and their limitations</title>
+        <title>How to work with Shopify Collection Filters and their limitations</title>
         <link>http://eriksilver.github.io/blog/</link>
         <guid isPermaLink="true">http://eriksilver.github.io/blog/</guid>
         <description>&lt;h1 id=&quot;shopify-collection-filters&quot;&gt;Shopify Collection Filters&lt;/h1&gt;

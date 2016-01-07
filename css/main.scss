@@ -3,16 +3,18 @@
 // External
 @import 'external/reset';
 @import 'external/solarized-dark';
+@import 'external/syntax';
 
 // Base
 @import 'base/variables';
 @import 'base/global';
 @import 'base/utility';
 
-// Posts
+// Layouts
 @import 'layouts/posts';
 @import 'layouts/index';
+@import 'layouts/blog';
 
-// Partials
+// Includes / Partials
 @import 'includes/header';
 @import 'includes/footer';

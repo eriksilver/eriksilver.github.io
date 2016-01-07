@@ -5,4 +5,4 @@ permalink: /blog/
 feature-img: "img/color.png"
 ---
 
-{% include blog.html %}
+{% include new-blog.html %}

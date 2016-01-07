@@ -1,0 +1,38 @@
+// Blog page - Post listing
+// .blog-posts {
+//     @extend %padding-header;
+//     .post-header {
+//         text-align: center;
+//     }
+//     .post-teaser {
+//         width: 46%;
+//         @media (max-width:768px) {
+//             width:100%;
+//         }
+//         margin:0 2% 1em;
+//         display: block;
+//         background-size: $feature-image-size;
+//         float:left;
+//         &:first-child {
+//             padding-top:0;
+//         }
+//         p a:hover {
+//             @extend %link-hover;
+//         }
+//     }
+//     .excerpt {
+//         margin: 1em 0;
+//     }
+// }
+
+.date-blog-list {
+    color: rgba($text-color, .5);
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    margin: -10px 0 0 15px ;
+    text-transform: uppercase;
+}
+
+.blog-list {
+    list-style: none;
+}

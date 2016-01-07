@@ -13,6 +13,12 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
+Unordered lists are started by using an asterisk, a dash or a plus sign (they can be mixed) and a space. Apart from that unordered lists follow the same rules as ordered lists:
+
+* bullet 1
++ bullet 2
+- bullet 3
+
 Here's an example of an image, which is included using Markdown:
 
 ![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)

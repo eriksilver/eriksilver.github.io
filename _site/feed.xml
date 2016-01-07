@@ -5,7 +5,78 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Wed, 23 Dec 2015 21:28:22 -0600</pubDate>
+    <pubDate>Wed, 06 Jan 2016 21:12:26 -0600</pubDate>
+    
+      <item>
+        <title>How to deploy an app from scratch with Heroku, using Node and Express</title>
+        <link>http://eriksilver.github.io/blog/How-to-deploy-an-app-from-scratch-with-Heroku-using-Node-and-Express</link>
+        <guid isPermaLink="true">http://eriksilver.github.io/blog/How-to-deploy-an-app-from-scratch-with-Heroku-using-Node-and-Express</guid>
+        <description>&lt;p&gt;This post shares the steps to take an application and deploy it as a web application with Heroku. It details the files and steps required for Heroku and Express to launch the app.&lt;/p&gt;
+
+&lt;p&gt;In a previous &lt;a href=&quot;http://eriksilver.github.io/blog/How-to-serve-static-files-with-Node-and-Express-without-a-templating-engine/&quot;&gt;post&lt;/a&gt;, I shared a detailed example of how to setup Express with Node.js to serve an application.&lt;/p&gt;
+
+&lt;p&gt;These are the these steps I used to publish an Angular app, the Event Management System. A link to the full Github repo is at the bottom.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your using Git for your project, make a new branch:&lt;br /&gt;
+&lt;code&gt;git checkout -b new_branch_name&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a Procfile in the project root directory. Heroku will look for a Procfile to deploy the app.The contents of the Procfile is one line: web:  &lt;code&gt;node server.js&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;touch Procfile&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a server.js file in the project root directory. This file will use Express to setup the server. In my Node + Express &lt;a href=&quot;http://eriksilver.github.io/blog/How-to-serve-static-files-with-Node-and-Express-without-a-templating-engine/&quot;&gt;post&lt;/a&gt;, I go into detail about setting up the server.js file.&lt;br /&gt;
+&lt;code&gt;touch server.js&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a package.json file which Node.js (npm) uses to identify the project and specifies how to handle the projects dependencies. Heroku will look for a package.json file as well to build the deployment.&lt;br /&gt;
+&lt;code&gt;npm init&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Express, which is web framework for Node.js that will help setup the server. The ‘–save’ flag will save Express as dependency for the application in the package.json file.&lt;br /&gt;
+&lt;code&gt;npm install express --save&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Arrange files - based on how the server.js file is setup, I have the files used in the “view” in a Public folder. Move your application/view files to a Public folder.&lt;br /&gt;
+Note: Express needs to remain in root directory as well as the server.js, Procfile, and package.json files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run the app! To run locally, use ‘npm start’.&lt;br /&gt;
+&lt;code&gt;npm start&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When app is working and running locally, merge branch to master.&lt;br /&gt;
+&lt;code&gt;git checkout master&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;git merge new_branch_name&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now, Heroku. Assuming you have the Heroku toolbelt installed, you can run ‘heroku create’ to spin up a new Heroku app.&lt;br /&gt;
+&lt;code&gt;heroku create&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure you git respository is connected to Heroku as well. Check ‘git remote -v’. Assuming you’re good to go, push your local repo, you most up-to-date version of the codebase to Heroku.&lt;br /&gt;
+&lt;code&gt;git push heroku master&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure the Heroku server is ready.&lt;br /&gt;
+&lt;code&gt;heroku ps:scale web=1&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Launch your app on the web!&lt;br /&gt;
+&lt;code&gt;heroku open&lt;/code&gt;&lt;br /&gt;
+or depending on how your remotes are setup:&lt;br /&gt;
+&lt;code&gt;heroku open --app heroku_app_name&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Check out the repo &lt;a href=&quot;https://github.com/eriksilver/Events-CMS&quot;&gt;here&lt;/a&gt; if you want to reference the files.&lt;/p&gt;
+
+&lt;p&gt;How do you spin up a Node + Express server?&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>How to serve static files with Node and Express, without a templating engine</title>

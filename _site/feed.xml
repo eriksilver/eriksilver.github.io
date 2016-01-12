@@ -5,7 +5,7 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Tue, 12 Jan 2016 13:14:24 -0600</pubDate>
+    <pubDate>Tue, 12 Jan 2016 13:53:18 -0600</pubDate>
     
       <item>
         <title>How to deploy an app from scratch with Heroku, using Node and Express</title>
@@ -83,33 +83,43 @@ or depending on how your remotes are setup:&lt;br /&gt;
       </item>
     
       <item>
-        <title>Replacing Shopify Collection drop down filters with radio buttons</title>
+        <title>Replacing a Shopify Collection drop-down filter with radio buttons</title>
         <link>http://eriksilver.github.io/blog/Replacing-Shopify-Collection-drop-down-filters-with-radio-buttons</link>
         <guid isPermaLink="true">http://eriksilver.github.io/blog/Replacing-Shopify-Collection-drop-down-filters-with-radio-buttons</guid>
-        <description>&lt;h1 id=&quot;shopify-collection-filters&quot;&gt;Shopify Collection Filters&lt;/h1&gt;
-&lt;p&gt;A client’s site had drop down filters for their product tags. The radio buttons offer a better user experience and a better aesthetic.&lt;/p&gt;
+        <description>&lt;p&gt;A client’s site used a drop-down menu to filter their product tags but wanted a more customized solution. The radio button filter that I implemented offers a better user experience and aesthetic.&lt;/p&gt;
 
-&lt;p class=&quot;center&quot;&gt;The page originally looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;strong&gt;The page with the drop-down filter originally looked like this:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/jewelry-dropdown.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;center&quot;&gt;And with radio buttons, the filtering looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class=&quot;center&quot;&gt;&lt;strong&gt;And with radio buttons, the filtering looked like &lt;a href=&quot;http://www.supermarkethq.com/collections/jewelry&quot;&gt;this&lt;/a&gt;:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/jewelry-radio.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The original implementation using the drop down displays all product tags available and then when a user selects a tag, jQuery is used to add that tag to the url handle using ‘window.location.href’. That will reload the page with the tag filter in place. The url will look like this if the “rings” tag is selected: www.supermarkethq.com/collections/jewelry/rings
-To learn more about how Shopify filters and uses the url, see this &lt;a href=&quot;http://eriksilver.github.io/blog/How-to-work-with-Shopify-Collection-Filters-and-their-limitations&quot;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The original implementation used the drop-down menu to display all product tags available and when a user selected a tag, jQuery was used to add that tag to the url handle using ‘window.location.href’. That reloads the page with the tag filter. As an example, the url would look like this if the “rings” tag is selected: www.supermarkethq.com/collections/jewelry/rings
+To learn more about how Shopify filters work, see this &lt;a href=&quot;http://eriksilver.github.io/blog/How-to-work-with-Shopify-Collection-Filters-and-their-limitations&quot;&gt;post&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-filter-with-radio-buttons&quot;&gt;How to filter with radio buttons&lt;/h2&gt;
-&lt;p&gt;The radio button implementation is more complex and includes additional elements:
-* Custom collection filters - assigns the tags/radio filters for each collection - way to subcategorize a collection.
-* Refactor the selector to an input and add additional CSS classes for the radio buttons
-* Add logic to check if a radio button is selected - only one can be selected at a time&lt;/p&gt;
+&lt;h4 id=&quot;how-to-filter-with-radio-buttons&quot;&gt;How to filter with radio buttons&lt;/h4&gt;
+&lt;p&gt;The radio button implementation is more complex and includes additional elements:&lt;/p&gt;
 
-&lt;p&gt;Here is a look at the final radio button code:
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Custom tags assigned to the radio buttons for each collection. This is also a way to subcategorize a collection, instead of showing all tags for all products.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Refactor the CSS selector to an ‘input’ and add additional CSS classes for the radio buttons.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add logic to check if a radio button is selected; only one can be selected at a time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is a look at the final radio button code:&lt;/strong&gt;
 &lt;script src=&quot;https://gist.github.com/57acc1a8330a8d8dff50.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;What questions do you have about Shopify collection and product filters?&lt;/p&gt;
 
-&lt;p&gt;Contact me &lt;a href=&quot;http://eriksilver.github.io/contact&quot;&gt;here&lt;/a&gt; if you want to chat about your project needs.&lt;/p&gt;
+&lt;p&gt;Contact me &lt;a href=&quot;http://eriksilver.github.io/contact&quot;&gt;here&lt;/a&gt; to chat about your project needs.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Dec 2015 00:00:00 -0600</pubDate>
       </item>
@@ -118,12 +128,11 @@ To learn more about how Shopify filters and uses the url, see this &lt;a href=&q
         <title>How to work with Shopify Collection Filters and their limitations</title>
         <link>http://eriksilver.github.io/blog/How-to-work-with-Shopify-Collection-Filters-and-their-limitations</link>
         <guid isPermaLink="true">http://eriksilver.github.io/blog/How-to-work-with-Shopify-Collection-Filters-and-their-limitations</guid>
-        <description>&lt;h1 id=&quot;shopify-collection-filters&quot;&gt;Shopify Collection Filters&lt;/h1&gt;
-&lt;p&gt;A client that was designing a new store reached out for help to understand how Shopify collection and product filters work and their inherent limitations.&lt;/p&gt;
+        <description>&lt;p&gt;A client that was designing a new store reached out for help to understand how Shopify collection and product filters work and their inherent limitations.&lt;/p&gt;
 
 &lt;p&gt;The overview below explains Shopify’s “native” product filtering. If you are looking for something different or a customized solution, let’s talk to understand what your project needs.&lt;/p&gt;
 
-&lt;h1 id=&quot;shopify-product-filters--categorization&quot;&gt;Shopify Product Filters &amp;amp; Categorization:&lt;/h1&gt;
+&lt;h4 id=&quot;shopify-product-filters--categorization&quot;&gt;Shopify Product Filters &amp;amp; Categorization:&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -145,7 +154,7 @@ To learn more about how Shopify filters and uses the url, see this &lt;a href=&q
     &lt;p&gt;Another limitation to keep in mind is if you have a large product catalog, Shopify has a limitation to display 50 products at one time. If you have a large collection you will likely want to implement pagination for your collections.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Many Shopify themes default to drop down boxes for filtering. For a client we designed a modified version that uses radio buttons. Check out this post that gets into the code and gritty details.&lt;/p&gt;
+    &lt;p&gt;Many Shopify themes default to drop-down boxes for filtering. For a client we designed a modified version that uses radio buttons. Check out this post that gets into the code and gritty details.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

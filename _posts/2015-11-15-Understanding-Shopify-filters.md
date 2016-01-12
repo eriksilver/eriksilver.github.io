@@ -6,12 +6,11 @@ published: true
 permalink: /blog/How-to-work-with-Shopify-Collection-Filters-and-their-limitations
 ---
 
-#Shopify Collection Filters
 A client that was designing a new store reached out for help to understand how Shopify collection and product filters work and their inherent limitations.
 
 The overview below explains Shopify’s “native” product filtering. If you are looking for something different or a customized solution, let’s talk to understand what your project needs.
 
-#Shopify Product Filters & Categorization:
+####Shopify Product Filters & Categorization:
 
 * Products can be organized first by Collections and then by product Tags. Product tags are used as Filters.
 
@@ -25,7 +24,7 @@ The overview below explains Shopify’s “native” product filtering. If you a
 
 * Another limitation to keep in mind is if you have a large product catalog, Shopify has a limitation to display 50 products at one time. If you have a large collection you will likely want to implement pagination for your collections.
 
-* Many Shopify themes default to drop down boxes for filtering. For a client we designed a modified version that uses radio buttons. Check out this post that gets into the code and gritty details.
+* Many Shopify themes default to drop-down boxes for filtering. For a client we designed a modified version that uses radio buttons. Check out this post that gets into the code and gritty details.
 
 Here is a Shopify [article](https://docs.shopify.com/support/your-store/collections/filtering-a-collection-with-multiple-tag-drop-down) with more details about their filtering system and a [demo shop](http://satterfield-pfeffer5655.myshopify.com/collections/all) to try out the filters for yourself.
 

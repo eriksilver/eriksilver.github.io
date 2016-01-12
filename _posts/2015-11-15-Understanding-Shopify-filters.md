@@ -31,4 +31,4 @@ Here is a Shopify [article](https://docs.shopify.com/support/your-store/collecti
 
 What questions do you have about Shopify product filters?
 
-Contact me [here](/contact) if you want to talk Shopify filters.   
+Contact me [here](http://eriksilver.github.io/contact) if you want to talk Shopify filters.   

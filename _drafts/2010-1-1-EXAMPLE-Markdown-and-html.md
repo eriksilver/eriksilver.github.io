@@ -13,6 +13,9 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
+Embed Gist
+{% gist 5555251 %} //where gist id is 5555251, found in the gist URL
+
 Unordered lists are started by using an asterisk, a dash or a plus sign (they can be mixed) and a space. Apart from that unordered lists follow the same rules as ordered lists:
 
 * bullet 1

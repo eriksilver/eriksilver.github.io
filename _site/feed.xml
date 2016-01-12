@@ -5,7 +5,7 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Tue, 12 Jan 2016 13:53:18 -0600</pubDate>
+    <pubDate>Tue, 12 Jan 2016 16:05:01 -0600</pubDate>
     
       <item>
         <title>How to deploy an app from scratch with Heroku, using Node and Express</title>

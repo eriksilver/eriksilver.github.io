@@ -3,6 +3,7 @@ layout: post
 title: Replacing a Shopify Collection drop-down filter with radio buttons
 tags: Shopify, filters, How to
 published: true
+categories: Shopify
 permalink: /blog/Replacing-Shopify-Collection-drop-down-filters-with-radio-buttons
 ---
 

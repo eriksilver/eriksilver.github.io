@@ -1,0 +1,46 @@
+<!-- <div>Shopify Expert Link</div> -->
+<!-- <p>
+    About me / Shopify
+</p> -->
+
+<h2>Services</h2>
+<ul style="margin-left: 30px">
+<li>Store setup</li>
+<li>Theme customization</li>
+<li>Store modifications</li>
+<li>Store features</li>
+<li>App integration</li>
+</ul>
+<br>
+<h2>Code Snippets</h2>
+<ul class="no-bullet-list">
+    <a href="https://gist.github.com/eriksilver/57acc1a8330a8d8dff50" title="radio button filter"><li>Radio Button Filter</li>
+    </a>
+
+</ul>
+<br>
+<h2>Shopify Posts</h2>
+<div class="blog-posts">
+    <h2 class="post-header"></h2>
+    <ul>
+        {% for post in site.posts %}
+        {% if post.tags contains 'Shopify,' %}
+        <li class="no-bullet-list">
+            <h4>
+                <!-- <i class="fa fa-circle-thin"></i> -->
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </h4>
+            <p class="date-blog-list">
+                {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+        </li>
+
+        {% endif %}
+
+        {% endfor %}
+    </ul>
+
+
+</div>

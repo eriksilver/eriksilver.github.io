@@ -18,7 +18,7 @@ theme:
   header_text_feature_image:
 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>. Austin, TX.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>.  Austin, TX.
 
   # Icons
   rss: false

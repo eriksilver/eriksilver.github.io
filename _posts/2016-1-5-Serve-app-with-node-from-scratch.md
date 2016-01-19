@@ -53,7 +53,3 @@ or depending on how your remotes are setup:<br>
 Check out the repo [here](https://github.com/eriksilver/Events-CMS) if you want to reference the files.
 
 How do you spin up a Node + Express server?
-
-<p class="meta">
-    {{ post.date | date: "%B %-d, %Y" }}
-</p>

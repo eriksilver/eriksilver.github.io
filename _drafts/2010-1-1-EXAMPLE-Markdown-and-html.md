@@ -13,6 +13,12 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
+First Header  | Second Header   | Third Header
+------------- | -------------   | ------------
+Content Cell  | Content Cell    | Content cell
+Content Cell  | Content Cell    | Content cell
+
+
 Embed Gist
 {% gist 5555251 %} //where gist id is 5555251, found in the gist URL
 

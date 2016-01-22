@@ -10,6 +10,8 @@
 <li>Store modifications</li>
 <li>Store features</li>
 <li>App integration</li>
+<li>Search Engine Optimization</li>
+
 </ul>
 <br>
 <h2>Code Snippets</h2>
@@ -24,23 +26,36 @@
     <h2 class="post-header"></h2>
     <ul>
         {% for post in site.posts %}
-        {% if post.tags contains 'Shopify,' %}
-        <li class="no-bullet-list">
-            <h4>
-                <!-- <i class="fa fa-circle-thin"></i> -->
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                </a>
-            </h4>
-            <p class="date-blog-list">
-                {{ post.date | date: "%B %-d, %Y" }}
-            </p>
-        </li>
+            {% if post.tags contains 'Shopify,' %}
+                <li class="no-bullet-list">
+                    <h4>
+                        <!-- <i class="fa fa-circle-thin"></i> -->
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                    </h4>
+                    <p class="date-blog-list">
+                        {{ post.date | date: "%B %-d, %Y" }}
+                    </p>
+                </li>
 
-        {% endif %}
-
+            {% endif %}
         {% endfor %}
     </ul>
-
-
 </div>
+<br>
+<h2>Work Examples</h2>
+<p>Shopify marketplace + niche designer goods</p>
+{:.center}
+![]({{ site.baseurl }}/img/SMHQ_home_top.jpg)
+<p>Category icons + footer</p>
+{:.center}
+![]({{ site.baseurl }}/img/SMHQ_home_bot.jpg)
+<p></p>
+<p>Implement live + instant search</p>
+{:.center}
+![]({{ site.baseurl }}/img/live-search.jpg)
+<p></p>
+<p>Create radio button tag filters</p>
+{:.center}
+![]({{ site.baseurl }}/img/jewelry-radio.jpg)

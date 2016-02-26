@@ -5,7 +5,7 @@
     <atom:link href="http://eriksilver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://eriksilver.github.io/</link>
     <description>A personal portfolio and blog website focusing on front end development and Shopify</description>
-    <pubDate>Fri, 22 Jan 2016 09:34:41 -0600</pubDate>
+    <pubDate>Fri, 26 Feb 2016 14:18:41 -0600</pubDate>
     
       <item>
         <title>Set up an Angular controller unit test with Jasmine and Karma</title>

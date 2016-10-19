@@ -8,7 +8,7 @@ theme:
 
   title: Erik Silver # Your name will go here
 
-  description: "A personal portfolio and blog website focusing on front end development and Shopify" # used by search engines
+  description: "A personal portfolio and blog website focusing on Shopify and front-end development" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -73,7 +73,7 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed

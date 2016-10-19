@@ -8,12 +8,12 @@ theme:
 
   title: Erik Silver # Your name will go here
 
-  description: "A personal portfolio and blog website focusing on front end development and Shopify" # used by search engines
+  description: "A personal portfolio and blog website focusing on Shopify and front-end development" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Front-End Developer</h1>
-     <p>Specializing in AngularJS and JavaScript</p>
+     <h1>Shopify Developer</h1>
+     <p>Specializing Custom Theme Development</p>
 
   header_text_feature_image:
 
